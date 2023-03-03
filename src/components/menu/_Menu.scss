@@ -1,0 +1,16 @@
+.header__menu {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+.menu__cart {
+	display: flex;
+	align-items: center;
+	svg {
+		margin-right: 10px;
+	}
+	span {
+		font-weight: 600;
+		color: #5c5c5c;
+	}
+}

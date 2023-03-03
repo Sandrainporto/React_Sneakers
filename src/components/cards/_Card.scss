@@ -1,0 +1,41 @@
+.container__sneakers{
+	display: flex;
+	flex-direction: row;
+	gap: 40px;
+	flex-wrap: wrap;
+}
+.sneakers__item {
+	width: 210px;
+	background: #ffffff;
+	border: 1px solid #d4d4d4;
+	border-radius: 40px;
+	padding: 22px 30px 32px;
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+}
+.item__title {
+	width: 150px;
+}
+.item__info {
+	display: flex;
+	flex-direction: row;
+	gap: 36px;
+
+	button{
+		background-color: white;
+	}
+	div {
+		display: flex;
+		flex-direction: column;
+		gap: 2px;
+
+		span {
+			font-weight: 500;
+			font-size: 11px;
+			line-height: 13px;
+			text-transform: uppercase;
+			color: #bdbdbd;
+		}
+	}
+}
