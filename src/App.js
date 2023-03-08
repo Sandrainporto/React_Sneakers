@@ -1,12 +1,14 @@
-import Content from "./components/content/Content";
-import Header from "./components/header/Header";
+import Cart from "./layout/cart/Cart";
+import Content from "./layout/content/Content";
+import Header from "./layout/header/Header";
 
 
 function App() {
 	return (
 		<div className="wrapper">
+			<Cart/>
 			<Header />
-		<Content/>
+			<Content />
 		</div>
 	);
 }

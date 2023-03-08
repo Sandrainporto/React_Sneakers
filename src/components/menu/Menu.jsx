@@ -1,7 +1,7 @@
 const Menu = () => {
   return (
     <ul className="header__menu menu">
-      <li className="menu__cart cart">
+      <li className="menu__cart-icon">
         <svg
           width="20"
           height="20"
