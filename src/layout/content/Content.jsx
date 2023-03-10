@@ -74,6 +74,7 @@ const Content = () => {
         <div className="container__info">
           <h1 className="container__title">Все кроссовки</h1>
 					<Search />
+					<DateCaeck />
 					<DateCaeck/>
         </div>
         <div className="container__sneakers sneakers">
