@@ -1,4 +1,5 @@
 import Card from "../../components/cards/Card";
+import DateCaeck from "../../components/dateCheck/DateCheck";
 import Search from "../../components/search/Search";
 const arrSneakers = [
   {
@@ -72,7 +73,8 @@ const Content = () => {
       <div className="content__container container">
         <div className="container__info">
           <h1 className="container__title">Все кроссовки</h1>
-          <Search />
+					<Search />
+					<DateCaeck/>
         </div>
         <div className="container__sneakers sneakers">
           {arrSneakers.map((obj) => (
